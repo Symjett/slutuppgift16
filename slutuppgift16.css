@@ -1,0 +1,11 @@
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	margin: 100px 0px 0px 0px;
+}
+.startsida {
+	background-image: url(startsida.jpg);
+	background-size: 1920px 1080px
+}

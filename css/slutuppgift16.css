@@ -9,3 +9,7 @@ h2 {
 	background-image: url(startsida.jpg);
 	background-size: 1920px 1080px;
 }
+p {
+	margin-top: 20px;
+	text-align: center;
+}

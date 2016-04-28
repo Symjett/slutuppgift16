@@ -1,0 +1,20 @@
+.container {
+	background-color: hsl(8, 100%, 30%);
+}
+.ett {
+	background-color: hsl(69, 80%, 30%);
+}
+.tva {
+	background-color: hsl(79, 80%, 30%);	
+}
+.tre {
+	background-color: hsl(33, 80%, 30%);	
+}
+.h1 {
+	background-color: purple;
+}
+.minvideo {
+	max-width: 600px;
+	margin:  0 auto;
+	
+}

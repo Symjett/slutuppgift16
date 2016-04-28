@@ -13,3 +13,11 @@ p {
 	margin-top: 20px;
 	text-align: center;
 }
+.nigel {
+	background-image: url('img_smallflower.jpg'); 
+}
+@media only screen and (min-device-width: 400px) {
+.nigel { 
+        background-image: url('img_flowers.jpg'); 
+  }
+}

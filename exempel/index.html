@@ -13,11 +13,47 @@
   <li role="presentation"><a href="../index.html">Startsida</a></li>
   <li role="presentation"><a href="../responsive/index.html">Responsive images</a></li>
   <li role="presentation" class="active"><a href="index.html">Exempel</a></li>
+   <li role="presentation"><a href="../dok/index.html">Dokumentation</a></li>
 	</ul>
 	
 	<h2>Exempel</h2>
-	<p>Här är några andra bilder som använder sig av funktionen responsive images:</p>
 	
+	<div class="hur">
+	<h2>Hur gör man Responsive images?</h2>
+	<p>
+	När du är på din mobiltelefon vill du att bilden ska vara tydligare. Som vi har <br>
+	sagt innan behöver man då alltså två bilder. Ena bilden är originalet och andra <br>
+	är den "inzoomade" bilden. Du använder dig utav denna koden för att få Responsive <br>
+	images: 
+	</p>
+	
+	<div>
+	<pre>
+	&lt;picture>
+	  &lt;source media="(min-width: xxx px)" srcset="originalet.jpg">
+	
+	  &lt;img src="andra-bilden.jpg" alt="...">
+	&lt;/picture>
+		</pre>
+	</div>
+	
+	<p>
+	Du kan bestämma när bilden ska ändras vid en viss pixel-bredd. Om vi säger att <br>
+	du sätter "min-width: 500px" kommer originalet ändras till andra bilden om <br>
+	bredden är mindre än 500px.
+	</p>
+	
+	<p>
+	Här nedan finns en video som går igenom mer detaljerat hur man använder sig av <br>
+	Responsive images:
+	</p>
+	
+		<div class="minvideo">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/vpRsLPI400U" frameborder="0"></iframe>
+	</div>
+	</div>
+	
+	<p>Här är några andra bilder som använder sig av funktionen responsive images:</p>
 	<div>
 		<picture>
 	  <source media="(min-width: 500px)" srcset="sommarstuga.jpg">
@@ -49,5 +85,6 @@
 	  <img src="lillatrump.jpg" alt="Trump">
 		</picture>
 	</div>
+	
 </body>
 </html>

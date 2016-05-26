@@ -14,13 +14,34 @@ p {
 	
 }
 .text {
-	border: red solid;
+	border: #919191 solid;
 	background-color: white;
 	width: 700px;
-	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	
 }
 .texth {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
+.shaq {
+	padding-top: 10px;
+}
+.maralia {
+	width: 675px;
+	height: 420px;
+}
+
+.hur {
+	float: right;
+	background-color: white;
+	border: #919191 solid;
+	
+}
+.intro {
+	text-align: center;
+}
+
